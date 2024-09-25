@@ -41,7 +41,7 @@ h2{
     height: 50px;
 }
 img{
-    height: 500px;
+    height: 350px;
 }
 .title{
     font-weight: bold;
@@ -63,7 +63,19 @@ img{
     margin-left: -50px;
     margin-top: -90px;
     color: aliceblue;
-    background-color: black;
+    background-color: rgb(129, 128, 128);
+    border-radius: 10px;
+}
+#btn-primary-one{
+    background-color: rgb(109, 108, 108);
+    margin-top: -120px;
+    color: aliceblue;
+    margin-top: -60px;
+    margin-left: 80px;
+    position: absolute;
+    top: 320px;
+    right: 30px;
+    border-radius: 10px;
 }
 #count{
     font-size: 2.5rem;
@@ -123,4 +135,124 @@ height: 99%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+.f-part{
+   margin-left: 300px;
+}
+.forth-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+table,th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 15px;
+}
+table{
+    width: 300px;
+    height: 80px;
+}
+th{
+    text-align: start;
+    height: 25px;
+}
+input{
+    background-color: #303030;
+    border-radius: 10px;
+    /* width: 100px; */
+}
+/* form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 50px;
+} */
+.important-forth-part{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: rgb(54, 53, 53);
+    padding: 20px 20px;
+    width: 100%;
+}
+
+
+form {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* space between rows */
+    
+}
+.row {
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    gap: 10px; /* space between items in the row */
+}
+.row input, .row select {
+    background-color: #303030;
+    color: aliceblue;
+    flex: 1; /* each item takes half of the row */
+}
+.full-width {
+    width: 100%;
+}
+.full-width select {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #303030;
+    color: aliceblue;
+    height: 40px;
+}
+
+.cal{
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #E6533C;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.part-of-footer{
+    text-align: center;
+    margin-top: 80px;
+}
+/* img{
+    border-radius: 15px;
+} */
+
+.another-img-part,img{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+width: 230px;
+/* height: 500px; */
+margin: 20px;
+border-radius: 10px;
+}
+.another-img-part{
+    background-color: #303030;
+    width: 80%;
+    /* height: 200px; */
+}
+
+h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.last-part{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    background-color: #303030;
+    margin-top: 70px;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: auto;
+    border-bottom: 1px solid #303030;
+}
+h6{
+    text-align: center;
 }
